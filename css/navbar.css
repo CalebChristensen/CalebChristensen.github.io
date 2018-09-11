@@ -1,0 +1,11 @@
+.dropdown-menu {
+    background-color: black;
+}
+.dropdown-item {
+    color: white;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: black;
+    transition: background-color 200ms linear;
+  }

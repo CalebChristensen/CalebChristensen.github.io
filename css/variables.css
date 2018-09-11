@@ -1,0 +1,27 @@
+:root {
+    --orange: #F98500;
+    --red: #e02311;
+    --blue: #1169f7;
+    --green: #3ae82e;
+    --yellow: #ffe60c;
+    --silver: #c6c6c6;
+    --purple: #3c0f58;
+    --brown: #664b3f;
+    --black: #0c0c0c;
+    --white: #fff8f4;
+
+    --font1: 'Cinzel', serif;
+    --font2: 'Kaushan Script', cursive;
+    --font3: 'Radley', serif;
+    --font4: 'Syncopate', sans-serif;
+    --font5: 'Cinzel Decorative', cursive;
+    --font6: 'Cinzel', serif;
+    --font7: 'Kaushan Script', cursive;
+    --font8: 'Great Vibes', cursive;
+    --font9: 'Covered By Your Grace', cursive;
+    --font10: 'Nothing You Could Do', cursive;
+    --font11: 'Rock Salt', cursive;
+    --font12: 'Cinzel Decorative', cursive;
+    --font13: 'Racing Sans One', cursive;
+    --font14: 'Metamorphous', cursive;
+}

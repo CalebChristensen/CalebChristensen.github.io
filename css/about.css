@@ -1,0 +1,43 @@
+h2 {
+    font-family: var(--font11);
+    color: orange;
+}
+
+p {
+    color: white;
+    
+}
+
+span {
+    width: 5em;
+}
+
+i {
+    font-size: 10em;
+    color: orange;
+}
+
+b {
+    color: white;
+    font-family: var(--font4);
+}
+
+span {
+    color: whitesmoke;
+}
+
+a {
+    text-align: center;
+    
+}
+
+a:hover {
+    background-color: orange;
+}
+
+.box{
+    height:250px;
+      width:300px;
+      overflow:hidden;
+  }
+
