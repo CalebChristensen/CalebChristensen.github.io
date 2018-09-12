@@ -43,7 +43,3 @@ a:hover {
     border-radius: 10em;
 }
 
-.skillNames {
-    -webkit-animation-name: pulse;
-    animation-name: pulse;
-  }
