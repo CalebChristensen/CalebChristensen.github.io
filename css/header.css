@@ -1,21 +1,3 @@
-.jumbo {
-    background: url(../assets/img/4kFightClub.jpg) center fixed;
-    background-size: cover;
-    height: 100vh; 
-    text-align: center; 
-    padding-top: 33%;
-    
-    
-}
-
- .lead {
-    color: white;
-    font-weight: bold;
-    font-family: var(--font4);
-    color: white;
-    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
-} 
-
 .fade-in {
 	opacity: 1;
 	animation-name: fadeInOpacity;
@@ -26,10 +8,15 @@
     font-family: var(--font11);
     color: white;
     text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-    font-size: 6em;
-    
+    font-size: 6em;  
 }
-
+.lead {
+  color: white;
+  font-weight: bold;
+  font-family: var(--font4);
+  color: white;
+  text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+} 
 @keyframes fadeInOpacity {
 	0% {
 		opacity: 0;
@@ -37,4 +24,162 @@
 	100% {
 		opacity: 1;
 	}
+}
+/* Desktop PC & Responsive */
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 6em;  
+}
+
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+      animation-duration: 2s;
+      color: rgb(255, 255, 255);
+      font-family: var(--font11);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+      font-size: 6em;  
+  }
+}
+
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+      animation-duration: 2s;
+      color: rgb(255, 255, 255);
+      font-family: var(--font11);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+      font-size: 3em;  
+  }
+}
+
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+      animation-duration: 2s;
+      color: rgb(255, 255, 255);
+      font-family: var(--font11);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -2px 3px 0 #0a0e27;
+      font-size: 2.1em;  
+  }
+}
+
+/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 412px) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+      animation-duration: 2s;
+      color: rgb(255, 255, 255);
+      font-family: var(--font11);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -2px 3px 0 #0a0e27;
+      font-size: 1.9em;  
+  }
+}
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+      animation-duration: 2s;
+      color: rgb(255, 255, 255);
+      font-family: var(--font11);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -2px 3px 0 #0a0e27;
+      font-size: 1.6em;  
+  }
+}
+
+/* Desktop PC & Responsive */
+.jumbo {
+  background: url(../assets/img/4kFightClub.jpg) center fixed;
+  background-size: cover;
+  height: 100vh; 
+  text-align: center; 
+  padding-top: 33%;   
+}
+
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+  .jumbo {
+    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background-size: cover;
+    height: 100vh; 
+    text-align: center; 
+    padding-top: 90%;   
+}
+}
+
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+  .jumbo {
+    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background-size: cover;
+    height: 100vh; 
+    text-align: center; 
+    padding-top: 98%;   
+}
+}
+
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+  .jumbo {
+    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background-size: cover;
+    height: 100vh; 
+    text-align: center; 
+    padding-top: 122%;   
+}
+}
+
+/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 412px) {
+  .jumbo {
+    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background-size: cover;
+    height: 100vh; 
+    width: 100%;
+    text-align: center; 
+    padding-top: 140%;   
+}
+}
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+  .jumbo {
+    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background-size: cover;
+    height: 100vh; 
+    text-align: center; 
+    padding-top: 120%;   
+}
 }
