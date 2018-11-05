@@ -387,8 +387,8 @@
 /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
 @media screen and (max-width: 412px) {
   .jumbo {
-    background: url(https://i.pinimg.com/originals/44/ab/0f/44ab0f44d859f28e5ffb944b22f814ca.jpg) center fixed;
-    background-size: cover;
+    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    width: 100%;
     height: 100vh;
     text-align: center;
   }
