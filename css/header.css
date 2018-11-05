@@ -388,8 +388,8 @@
 @media screen and (max-width: 412px) {
   .jumbo {
     background: url(../assets/img/4kFightClubMobile.png) center fixed;
-    background-size: cover;
-    height: 100vh;
+    width: 100%;
+    height: 700px;
     text-align: center;
   }
 }
