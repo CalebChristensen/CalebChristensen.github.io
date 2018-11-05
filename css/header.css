@@ -347,7 +347,7 @@
 /* Responsive */
 @media screen and (max-width: 1157px) {
   .jumbo {
-    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background: url(../assets/img/4kFightClubMobile.png) center fixed;
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -357,7 +357,7 @@
 /* Ipad Pro COMPLETE */
 @media screen and (max-width: 1024px) {
   .jumbo {
-    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background: url(../assets/img/4kFightClubMobile.png) center fixed;
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -367,7 +367,7 @@
 /* Ipad COMPLETE */
 @media screen and (max-width: 769px) {
   .jumbo {
-    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background: url(../assets/img/4kFightClubMobile.png) center fixed;
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -377,7 +377,7 @@
 /* Iphone 6/7/8 Plus COMPLETE */
 @media screen and (max-width: 414px) {
   .jumbo {
-    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background: url(../assets/img/4kFightClubMobile.png) center fixed;
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -387,7 +387,7 @@
 /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
 @media screen and (max-width: 412px) {
   .jumbo {
-    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background: url(../assets/img/4kFightClubMobile.png) center fixed;
     background-size: cover;
     height: 100vh;
     text-align: center;
@@ -397,7 +397,7 @@
 /* Iphone 5/SE & Galaxy S5 */
 @media screen and (max-width: 375px) {
   .jumbo {
-    background: url(../assets/img/4kFightClub.jpg) center fixed;
+    background: url(../assets/img/4kFightClubMobile.png) center fixed;
     background-size: cover;
     height: 100vh;
     text-align: center;
