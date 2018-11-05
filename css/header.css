@@ -378,8 +378,8 @@
 @media screen and (max-width: 414px) {
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center fixed;
-    width: 400px;
-    height: 740px;
+    background-size: cover;
+    height: 100vh;
     text-align: center;
   }
 }
@@ -387,9 +387,9 @@
 /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
 @media screen and (max-width: 412px) {
   .jumbo {
-    background: url(../assets/img/4kFightClub.jpg) center fixed;
-    width: 400px;
-    height: 650px;
+    background: url(../assets/img/4kFightClub.jpg) no-repeat center top fixed;
+    background-size: cover;
+    height: 100vh;
     text-align: center;
   }
 }
