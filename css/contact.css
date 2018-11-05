@@ -1,17 +1,17 @@
 input {
-    text-align: center;
+  text-align: center;
 }
+
 label {
-    color: white;
+  color: white;
 }
 
 .yourFavoriteWeapon {
-    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
-    min-height: 100%;
-    position: relative;
-  
+  background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+  min-height: 100%;
+  position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}

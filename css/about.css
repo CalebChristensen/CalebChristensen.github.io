@@ -1,55 +1,55 @@
 h2 {
-    font-family: var(--font11);
-    color: orange;
+  font-family: var(--font11);
+  color: orange;
 }
 
 p {
-    color: white;
-    
+  color: white;
+
 }
 
 span {
-    width: 5em;
+  width: 5em;
 }
 
 i {
-    font-size: 10em;
-    color: orange;
+  font-size: 10em;
+  color: orange;
 }
 
 b {
-    color: white;
-    font-family: var(--font4);
+  color: white;
+  font-family: var(--font4);
 }
 
 span {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 a {
-    text-align: center;
-    
+  text-align: center;
+
 }
 
 a:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .coverPhoto {
-    padding: 2em;
-    width: 100%;
-    height: 100%;
-    float:left;
-    border-radius: 10em;
+  padding: 2em;
+  width: 100%;
+  height: 590px;
+  float: left;
+  border-radius: 10em;
 }
 
 .rainDrops {
-    background-image: url("../assets/img/amazingstudiosnow.gif");
-    min-height: 100%;
-    position: relative;
-  
+  background-image: url("../assets/img/amazingstudiosnow.gif");
+  min-height: 100%;
+  position: relative;
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}

@@ -1,57 +1,117 @@
-.fade-in {
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-    animation-duration: 2s;
-    color: rgb(255, 255, 255);
-    font-family: var(--font11);
-    color: white;
-    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-    font-size: 6em;  
-}
 .lead {
   color: white;
   font-weight: bold;
   font-family: var(--font4);
   color: white;
   text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
-} 
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+  position: absolute;
+  z-index: 1;
+  top: 88vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
+
+.leadtext {
+  color: white;
+  font-weight: bold;
+  font-family: var(--font4);
+  color: white;
+  text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+  position: absolute;
+  z-index: 1;
+  top: 94vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 /* Desktop PC & Responsive */
 .fade-in {
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  color: rgb(255, 255, 255);
+  font-family: var(--font11);
+  color: white;
+  text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+  font-size: 8vw;
+  position: absolute;
+  z-index: 1;
+  top: 65vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+
+}
+
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
     animation-duration: 2s;
     color: rgb(255, 255, 255);
     font-family: var(--font11);
     color: white;
     text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-    font-size: 6em;  
-}
+    font-size: 8.4vw;
+    position: absolute;
+    z-index: 1;
+    top: 67vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
 
-/* Ipad Pro COMPLETE */
-@media screen and (max-width: 1024px) {
-  .fade-in {
-    opacity: 1;
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-      animation-duration: 2s;
-      color: rgb(255, 255, 255);
-      font-family: var(--font11);
-      color: white;
-      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-      font-size: 6em;  
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 79vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 85vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -62,12 +122,51 @@
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-      animation-duration: 2s;
-      color: rgb(255, 255, 255);
-      font-family: var(--font11);
-      color: white;
-      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-      font-size: 3em;  
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8.4vw;
+    position: absolute;
+    z-index: 1;
+    top: 71vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 81vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 87vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -78,12 +177,51 @@
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-      animation-duration: 2s;
-      color: rgb(255, 255, 255);
-      font-family: var(--font11);
-      color: white;
-      text-shadow: -1px 1px 0 var(--black), -2px 3px 0 #0a0e27;
-      font-size: 2.1em;  
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 64vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 73vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 4vw;
+    position: absolute;
+    z-index: 1;
+    top: 78vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -94,12 +232,51 @@
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-      animation-duration: 2s;
-      color: rgb(255, 255, 255);
-      font-family: var(--font11);
-      color: white;
-      text-shadow: -1px 1px 0 var(--black), -2px 3px 0 #0a0e27;
-      font-size: 1.9em;  
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 73vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 4.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 78vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -110,22 +287,62 @@
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-      animation-duration: 2s;
-      color: rgb(255, 255, 255);
-      font-family: var(--font11);
-      color: white;
-      text-shadow: -1px 1px 0 var(--black), -2px 3px 0 #0a0e27;
-      font-size: 1.6em;  
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 73vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 4.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 78vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
   }
 }
+
+/* BACKGROUND IMAGE */
 
 /* Desktop PC & Responsive */
 .jumbo {
   background: url(../assets/img/4kFightClub.jpg) center fixed;
   background-size: cover;
-  height: 100vh; 
-  text-align: center; 
-  padding-top: 33%;   
+  height: 100vh;
+  text-align: center;
 }
 
 /* Ipad Pro COMPLETE */
@@ -133,10 +350,9 @@
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center fixed;
     background-size: cover;
-    height: 100vh; 
-    text-align: center; 
-    padding-top: 90%;   
-}
+    height: 100vh;
+    text-align: center;
+  }
 }
 
 /* Ipad COMPLETE */
@@ -144,10 +360,9 @@
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center fixed;
     background-size: cover;
-    height: 100vh; 
-    text-align: center; 
-    padding-top: 98%;   
-}
+    height: 100vh;
+    text-align: center;
+  }
 }
 
 /* Iphone 6/7/8 Plus COMPLETE */
@@ -155,10 +370,9 @@
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center fixed;
     background-size: cover;
-    height: 100vh; 
-    text-align: center; 
-    padding-top: 122%;   
-}
+    height: 100vh;
+    text-align: center;
+  }
 }
 
 /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
@@ -166,11 +380,10 @@
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center fixed;
     background-size: cover;
-    height: 100vh; 
+    height: 100vh;
     width: 100%;
-    text-align: center; 
-    padding-top: 140%;   
-}
+    text-align: center;
+  }
 }
 
 /* Iphone 5/SE & Galaxy S5 */
@@ -178,8 +391,7 @@
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center fixed;
     background-size: cover;
-    height: 100vh; 
-    text-align: center; 
-    padding-top: 120%;   
-}
+    height: 100vh;
+    text-align: center;
+  }
 }

@@ -1,6 +1,5 @@
-.box{
-    height:250px;
-      width:300px;
-      overflow:hidden;
-  }
-
+.box {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
