@@ -362,6 +362,7 @@
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center;
     background-attachment: scroll;
+    background-size: cover;
   }
 }
 
@@ -370,6 +371,7 @@
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center;
     background-attachment: scroll;
+    background-size: cover;
   }
 }
 
@@ -378,6 +380,7 @@
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center;
     background-attachment: scroll;
+    background-size: cover;
   }
 }
 
@@ -395,5 +398,6 @@
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center;
     background-attachment: scroll;
+    background-size: cover;
   }
 }
