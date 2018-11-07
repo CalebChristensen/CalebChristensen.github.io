@@ -389,7 +389,8 @@
   .jumbo {
     background: url(../assets/img/4kFightClub.jpg) center;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: 100vh;
+    background-repeat:no-repeat;
   }
 }
 
