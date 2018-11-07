@@ -339,7 +339,8 @@
 
 /* Desktop */
 .jumbo {
-  background: url(../assets/img/4kFightClub.jpg) center fixed;
+  background: url(../assets/img/4kFightClub.jpg) center;
+  background-attachment: fixed;
   background-size: cover;
   height: 100vh;
   text-align: center;
@@ -387,11 +388,9 @@
 /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
 @media screen and (max-width: 412px) {
   .jumbo {
-    background: url(../assets/img/4kFightClubMobile2.png);
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
+    background: url(../assets/img/4kFightClubMobile2.png) center;
+    background-size: cover;
+    background-attachment: scroll;
   }
 }
 
