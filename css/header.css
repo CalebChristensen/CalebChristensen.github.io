@@ -389,7 +389,6 @@
 @media screen and (max-width: 412px) {
   .jumbo {
     background: url(../assets/img/4kFightClubMobile2.png) center;
-    background-size: cover;
     background-attachment: scroll;
   }
 }
