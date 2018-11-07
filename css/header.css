@@ -390,7 +390,7 @@
     height:700px;
     width:100%;
     position:relative;
-    background: url(../assets/img/4kFightClubMobile2.png) center fixed;
+    background: url(../assets/img/4kFightClubMobile2.png) center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
