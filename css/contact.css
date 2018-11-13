@@ -6,22 +6,21 @@ label {
   color: white;
 }
 
-.yourFavoriteWeapon {
-  background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
-  min-height: 100%;
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 /* Desktop PC & Responsive */
 .contactBox {
   margin: auto;
   width: 80vh;
   top: 20vh;
   text-align: center;
+}
+
+.yourFavoriteWeapon {
+  background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+  min-height: 80vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Ipad Pro COMPLETE */
@@ -32,6 +31,14 @@ label {
     top: 20vh;
     text-align: center;
   }
+
+  .yourFavoriteWeapon {
+    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
 }
 
 /* Ipad COMPLETE */
@@ -42,6 +49,12 @@ label {
     top: 20vh;
     text-align: center;
   }
+  .yourFavoriteWeapon {
+    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
 }
 
 /* Iphone 6/7/8 Plus COMPLETE */
@@ -52,6 +65,12 @@ label {
     top: 20vh;
     text-align: center;
   }
+  .yourFavoriteWeapon {
+    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
 }
 
 /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
@@ -62,6 +81,13 @@ label {
     top: 20vh;
     text-align: center;
   }
+  .yourFavoriteWeapon {
+    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+}
 }
 
 /* Iphone 5/SE & Galaxy S5 */
@@ -72,4 +98,10 @@ label {
     top: 20vh;
     text-align: center;
   }
+  .yourFavoriteWeapon {
+    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
 }

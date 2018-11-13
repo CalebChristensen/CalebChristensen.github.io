@@ -51,3 +51,16 @@ a:hover {
   background-position: center;
   background-size: cover;
 }
+
+/* Iphone 5/SE & Galaxy S5 */
+@media screen and (max-width: 375px) {
+  .coverPhoto {
+    margin-top:2.3em;
+    margin-left: -1em;
+    width: 320px;
+    height: 500px;
+    float: left;
+    border-radius: 10em;
+  }
+  
+}
