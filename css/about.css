@@ -51,3 +51,157 @@ a:hover {
   background-position: center;
   background-size: cover;
 }
+
+
+/* Responsive */
+@media screen and (max-width: 1159px) {
+  .aboutOne {
+    text-align: center
+  }
+  .aboutTwo{
+    text-align: center
+  }
+  .coverPhoto {
+    margin-top:2.3em;
+    margin-left: 1em;
+    width: 320px;
+    height: 500px;
+    float: left;
+    border-radius: 10em;
+  }
+}
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+  .aboutOne {
+    text-align: center;
+  }
+  .aboutTwo{
+    text-align: center
+  }
+  .coverPhoto {
+    margin-top:8vh;
+    width: 320px;
+    height: 500px;
+    float: left;
+    border-radius: 10em;
+  }
+}
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+  .aboutOne {
+    text-align: center;
+    position: top;
+  }
+  .aboutTwo{
+    text-align: center
+  }
+  .coverPhoto {
+    margin-top:2.3em;
+    margin-left: 1em;
+    width: 320px;
+    height: 500px;
+    float: left;
+    border-radius: 10em;
+  }
+}
+
+/* Samsung Moto X */
+@media screen and (max-width: 725px) {
+  .aboutOne {
+    text-align: center
+  }
+  .aboutTwo{
+    text-align: center
+  }
+  .coverPhoto {
+    margin-top:2.3em;
+    margin-left: 1em;
+    width: 320px;
+    height: 500px;
+    float: left;
+    border-radius: 10em;
+  }
+}
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+  .aboutOne {
+    text-align: center
+  }
+  .aboutTwo{
+    text-align: center
+  }
+  .coverPhoto {
+    margin-top:2.3em;
+    margin-left: 2em;
+    width: 320px;
+    height: 500px;
+    float: left;
+    border-radius: 10em;
+  }
+}
+/* Pixel 2 & Pixel 2 XL COMPLETE */
+@media screen and (max-width: 412px) {
+  .aboutOne {
+    text-align: center
+  }
+  .aboutTwo{
+    text-align: center
+  }
+  .coverPhoto {
+    margin-top:2.3em;
+    margin-left: 1.3em;
+    width: 340px;
+    height: 500px;
+    float: left;
+    border-radius: 10em;
+  }
+}
+/* iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 400px) {
+  .aboutOne {
+    text-align: center
+  }
+  .aboutTwo{
+    text-align: center
+  }
+  .coverPhoto {
+    margin-top:2.3em;
+    margin-left: 1em;
+    width: 320px;
+    height: 500px;
+    float: left;
+    border-radius: 10em;
+  }
+}
+/* Galaxy S5 */
+@media screen and (max-width: 375px) {
+  .aboutOne {
+    text-align: center
+  }
+  .aboutTwo{
+    text-align: center
+  }
+  .coverPhoto {
+    margin: auto;
+    margin-left: .4em;
+    width: 320px;
+    height: 500px;
+    border-radius: 10em;
+  }
+}
+/* Iphone 5/SE */
+@media screen and (max-width: 330px) {
+  .aboutOne {
+    text-align: center
+  }
+  .aboutTwo{
+    text-align: center
+  }
+  .coverPhoto {
+    margin: auto;
+    margin-right: 4em;
+    width: 300px;
+    height: 500px;
+    border-radius: 10em;
+  }
+}
