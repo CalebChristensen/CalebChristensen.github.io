@@ -60,7 +60,7 @@
 
 }
 
-/* Ipad Pro COMPLETE */
+/* Ipad Pro PORTRAIT */
 @media screen and (max-width: 1024px) {
   .fade-in {
     opacity: 1;
@@ -115,7 +115,62 @@
   }
 }
 
-/* Ipad COMPLETE */
+/* Ipad Pro LANDSCAPE*/
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8.4vw;
+    position: absolute;
+    z-index: 1;
+    top: 63vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 79vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 87vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+/* Ipad PORTRAIT*/
 @media screen and (max-width: 769px) {
   .fade-in {
     opacity: 1;
@@ -170,7 +225,62 @@
   }
 }
 
-/* Iphone 6/7/8 Plus COMPLETE */
+/* Ipad LANDSCAPE*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8.4vw;
+    position: absolute;
+    z-index: 1;
+    top: 63vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 79vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 87vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+/* Iphone 6/7/8 Plus PORTRAIT COMPLETE */
 @media screen and (max-width: 414px) {
   .fade-in {
     opacity: 1;
@@ -225,7 +335,7 @@
   }
 }
 
-/* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+/* Pixel 2 & Pixel 2 XL PORTRAIT */
 @media screen and (max-width: 412px) {
   .fade-in {
     opacity: 1;
@@ -280,7 +390,117 @@
   }
 }
 
-/* Iphone 5/SE & Galaxy S5 */
+/* Pixel 2 XL & iPhone 6/7/8 Plus & iPhone X LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 823px) and (orientation : landscape) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8.4vw;
+    position: absolute;
+    z-index: 1;
+    top: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 81vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+/* iPhone 6/7/8 & iPhone X PORTRAIT */
+@media screen and (max-width: 400px) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 73vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 4.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 78vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+/* Galaxy S5 PORTRAIT */
 @media screen and (max-width: 375px) {
   .fade-in {
     opacity: 1;
@@ -328,6 +548,117 @@
     position: absolute;
     z-index: 1;
     top: 78vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+/* Iphone 5/SE PORTRAIT */
+@media screen and (max-width: 330px) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 73vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 4.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 78vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+
+/* iPhone 6/7/8 & Galaxy S5 & Pixel 2 & IPhone 5/SE LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8.4vw;
+    position: absolute;
+    z-index: 1;
+    top: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    position: absolute;
+    z-index: 1;
+    top: 89vh;
     margin-left: auto;
     margin-right: auto;
     left: 0;
