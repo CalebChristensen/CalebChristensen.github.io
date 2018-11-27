@@ -94,15 +94,26 @@ a:hover {
   }
   .aboutTwo{
     text-align: center;
+
   }
   .coverPhoto {
-    margin-top:2.3em;
-    margin-left: 1em;
+    margin-top:1.5em;
+    margin-bottom: 1em;
     width: 320px;
     height: 500px;
-    float: left;
     border-radius: 10em;
+    margin-left: 17.5vh;
   }
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: auto;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.skills {
+  margin-top: 1em;
+}
 }
 
 /* Samsung Moto X */
@@ -199,7 +210,7 @@ a:hover {
   }
   .coverPhoto {
     margin: auto;
-    margin-right: 4em;
+    margin-left: -0.25em;
     width: 300px;
     height: 500px;
     border-radius: 10em;

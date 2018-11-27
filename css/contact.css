@@ -28,9 +28,7 @@ label {
   .contactBox {
     margin: auto;
     width: 45vh;
-    top: 20vh;
     text-align: center;
-    min-height: 80vh;
   }
 
   .yourFavoriteWeapon {
@@ -38,7 +36,7 @@ label {
     background-attachment: scroll;
     background-size: cover;
     background-position: left;
-    height: 10vh;
+    min-height: 40vh;
 }
 }
 
@@ -86,8 +84,8 @@ label {
     background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
     background-attachment: scroll;
     background-size: cover;
-    background-position: center;
-    height: 110vh;
+    background-position: left;
+    min-height: 40vh;
 }
 }
 
