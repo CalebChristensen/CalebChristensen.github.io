@@ -74,6 +74,7 @@ a:hover {
 @media screen and (max-width: 1024px) {
   .aboutOne {
     text-align: center;
+
   }
   .aboutTwo{
     text-align: center
@@ -90,10 +91,9 @@ a:hover {
 @media screen and (max-width: 769px) {
   .aboutOne {
     text-align: center;
-    position: top;
   }
   .aboutTwo{
-    text-align: center
+    text-align: center;
   }
   .coverPhoto {
     margin-top:2.3em;

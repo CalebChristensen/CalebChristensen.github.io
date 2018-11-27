@@ -30,14 +30,15 @@ label {
     width: 45vh;
     top: 20vh;
     text-align: center;
+    min-height: 80vh;
   }
 
   .yourFavoriteWeapon {
     background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
     background-attachment: scroll;
     background-size: cover;
-    background-position: center;
-    height: 50vh;
+    background-position: left;
+    height: 10vh;
 }
 }
 

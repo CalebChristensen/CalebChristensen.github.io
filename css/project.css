@@ -3,3 +3,77 @@
   width: 100%;
   overflow: hidden;
 }
+
+/* Responsive */
+@media screen and (max-width: 1159px) {
+  .box {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+/* Ipad Pro COMPLETE */
+@media screen and (max-width: 1024px) {
+  .box {
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+/* Ipad COMPLETE */
+@media screen and (max-width: 769px) {
+  .box {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+/* Samsung Moto X */
+@media screen and (max-width: 725px) {
+  .box {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+  .box {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+/* Pixel 2 & Pixel 2 XL COMPLETE */
+@media screen and (max-width: 412px) {
+  .box {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+/* iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 400px) {
+  .box {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+/* Galaxy S5 */
+@media screen and (max-width: 375px) {
+  .box {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+/* Iphone 5/SE */
+@media screen and (max-width: 330px) {
+  .box {
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
