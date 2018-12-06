@@ -120,3 +120,51 @@ label {
     background-position: left;
 }
 }
+
+/* Ipad Pro LANDSCAPE*/
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) {
+  .contactBox {
+    margin: auto;
+    width: 60vh;
+    top: 20vh;
+    text-align: center;
+  }
+  .yourFavoriteWeapon {
+    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: left;
+}
+}
+
+/* Ipad LANDSCAPE*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .contactBox {
+    margin: auto;
+    width: 70vh;
+    top: 20vh;
+    text-align: center;
+  }
+  .yourFavoriteWeapon {
+    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: left;
+}
+}
+
+/* Pixel 2 XL & iPhone 6/7/8 Plus & iPhone X LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 823px) and (orientation : landscape) {
+  .contactBox {
+    margin: auto;
+    width: 100vh;
+    top: 20vh;
+    text-align: center;
+  }
+  .yourFavoriteWeapon {
+    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: left;
+}
+}

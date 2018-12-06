@@ -36,7 +36,7 @@ a:hover {
 }
 
 .coverPhoto {
-  margin-top:2.3em;
+  margin-top: 2.3em;
   margin-left: 1em;
   width: 320px;
   height: 500px;
@@ -58,11 +58,13 @@ a:hover {
   .aboutOne {
     text-align: center
   }
-  .aboutTwo{
+
+  .aboutTwo {
     text-align: center
   }
+
   .coverPhoto {
-    margin-top:2.3em;
+    margin-top: 2.3em;
     margin-left: 1em;
     width: 320px;
     height: 500px;
@@ -70,50 +72,58 @@ a:hover {
     border-radius: 10em;
   }
 }
+
 /* Ipad Pro COMPLETE */
 @media screen and (max-width: 1024px) {
   .aboutOne {
     text-align: center;
 
   }
-  .aboutTwo{
+
+  .aboutTwo {
     text-align: center
   }
+
   .coverPhoto {
-    margin-top:8vh;
+    margin-top: 8vh;
     width: 320px;
     height: 500px;
     float: left;
     border-radius: 10em;
   }
 }
+
 /* Ipad COMPLETE */
 @media screen and (max-width: 769px) {
   .aboutOne {
     text-align: center;
   }
-  .aboutTwo{
+
+  .aboutTwo {
     text-align: center;
 
   }
+
   .coverPhoto {
-    margin-top:1.5em;
+    margin-top: 1.5em;
     margin-bottom: 1em;
     width: 320px;
     height: 500px;
     border-radius: 10em;
     margin-left: 17.5vh;
   }
+
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: auto;
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
-}
-.skills {
-  margin-top: 1em;
-}
+  }
+
+  .skills {
+    margin-top: 1em;
+  }
 }
 
 /* Samsung Moto X */
@@ -121,11 +131,13 @@ a:hover {
   .aboutOne {
     text-align: center
   }
-  .aboutTwo{
+
+  .aboutTwo {
     text-align: center
   }
+
   .coverPhoto {
-    margin-top:2.3em;
+    margin-top: 2.3em;
     margin-left: 1em;
     width: 320px;
     height: 500px;
@@ -133,16 +145,19 @@ a:hover {
     border-radius: 10em;
   }
 }
+
 /* Iphone 6/7/8 Plus COMPLETE */
 @media screen and (max-width: 414px) {
   .aboutOne {
     text-align: center
   }
-  .aboutTwo{
+
+  .aboutTwo {
     text-align: center
   }
+
   .coverPhoto {
-    margin-top:2.3em;
+    margin-top: 2.3em;
     margin-left: 2em;
     width: 320px;
     height: 500px;
@@ -150,16 +165,19 @@ a:hover {
     border-radius: 10em;
   }
 }
+
 /* Pixel 2 & Pixel 2 XL COMPLETE */
 @media screen and (max-width: 412px) {
   .aboutOne {
     text-align: center
   }
-  .aboutTwo{
+
+  .aboutTwo {
     text-align: center
   }
+
   .coverPhoto {
-    margin-top:2.3em;
+    margin-top: 2.3em;
     margin-left: 1.3em;
     width: 340px;
     height: 500px;
@@ -167,16 +185,19 @@ a:hover {
     border-radius: 10em;
   }
 }
+
 /* iPhone 6/7/8 & iPhone X COMPLETE */
 @media screen and (max-width: 400px) {
   .aboutOne {
     text-align: center
   }
-  .aboutTwo{
+
+  .aboutTwo {
     text-align: center
   }
+
   .coverPhoto {
-    margin-top:2.3em;
+    margin-top: 2.3em;
     margin-left: 1em;
     width: 320px;
     height: 500px;
@@ -184,14 +205,17 @@ a:hover {
     border-radius: 10em;
   }
 }
+
 /* Galaxy S5 */
 @media screen and (max-width: 375px) {
   .aboutOne {
     text-align: center
   }
-  .aboutTwo{
+
+  .aboutTwo {
     text-align: center
   }
+
   .coverPhoto {
     margin: auto;
     margin-left: .4em;
@@ -200,14 +224,17 @@ a:hover {
     border-radius: 10em;
   }
 }
+
 /* Iphone 5/SE */
 @media screen and (max-width: 330px) {
   .aboutOne {
     text-align: center
   }
-  .aboutTwo{
+
+  .aboutTwo {
     text-align: center
   }
+
   .coverPhoto {
     margin: auto;
     margin-left: -0.25em;
@@ -217,14 +244,233 @@ a:hover {
   }
 }
 
-/* iPhone 6/7/8 & Galaxy S5 & Pixel 2 & IPhone 5/SE LANDSCAPE */
-@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {
+/* Pixel 2 XL LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 823px) and (orientation : landscape) {
+  .aboutOne {
+    text-align: center;
+  }
+
+  .aboutTwo {
+    text-align: center;
+
+  }
+
   .coverPhoto {
-    margin: auto;
-    margin-left: 5.9em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
     width: 320px;
     height: 500px;
     border-radius: 10em;
+    margin-left: 46vh;
+  }
+
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: auto;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .skills {
+    margin-top: 1em;
   }
 }
 
+/* Iphone X LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 822px) and (orientation : landscape) {
+  .aboutOne {
+    text-align: center;
+  }
+
+  .aboutTwo {
+    text-align: center;
+
+  }
+
+  .coverPhoto {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    width: 320px;
+    height: 500px;
+    border-radius: 10em;
+    margin-left: 49vh;
+  }
+
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: auto;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .skills {
+    margin-top: 1em;
+  }
+}
+
+/* iPhone 6/7/8 Plus LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 736px) and (orientation : landscape) {
+  .aboutOne {
+    text-align: center;
+  }
+
+  .aboutTwo {
+    text-align: center;
+
+  }
+
+  .coverPhoto {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    width: 320px;
+    height: 500px;
+    border-radius: 10em;
+    margin-left: 23vh;
+  }
+
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: auto;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .skills {
+    margin-top: 1em;
+  }
+}
+
+/* Pixel 2 LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {
+  .aboutOne {
+    text-align: center;
+  }
+
+  .aboutTwo {
+    text-align: center;
+
+  }
+
+  .coverPhoto {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    width: 320px;
+    height: 500px;
+    border-radius: 10em;
+    margin-left: 23vh;
+  }
+
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: auto;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .skills {
+    margin-top: 1em;
+  }
+}
+
+/* iPhone 6/7/8 LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 667px) and (orientation : landscape) {
+  .aboutOne {
+    text-align: center;
+  }
+
+  .aboutTwo {
+    text-align: center;
+
+  }
+
+  .coverPhoto {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    width: 320px;
+    height: 500px;
+    border-radius: 10em;
+    margin-left: 25vh;
+  }
+
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: auto;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .skills {
+    margin-top: 1em;
+  }
+}
+
+/* Galaxy S5 LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 640px) and (orientation : landscape) {
+  .aboutOne {
+    text-align: center;
+  }
+
+  .aboutTwo {
+    text-align: center;
+
+  }
+
+  .coverPhoto {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    width: 320px;
+    height: 500px;
+    border-radius: 10em;
+    margin-left: 25vh;
+  }
+
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: auto;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .skills {
+    margin-top: 1em;
+  }
+}
+
+/* iPhone 5 LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 568px) and (orientation : landscape) {
+  .aboutOne {
+    text-align: center;
+  }
+
+  .aboutTwo {
+    text-align: center;
+
+  }
+
+  .coverPhoto {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    width: 320px;
+    height: 500px;
+    border-radius: 10em;
+    margin-left: 34vh;
+  }
+
+  .col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: auto;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+
+  .skills {
+    margin-top: 1em;
+  }
+}
