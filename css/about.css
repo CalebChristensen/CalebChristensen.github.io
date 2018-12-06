@@ -216,3 +216,15 @@ a:hover {
     border-radius: 10em;
   }
 }
+
+/* iPhone 6/7/8 & Galaxy S5 & Pixel 2 & IPhone 5/SE LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {
+  .coverPhoto {
+    margin: auto;
+    margin-left: 5.9em;
+    width: 320px;
+    height: 500px;
+    border-radius: 10em;
+  }
+}
+

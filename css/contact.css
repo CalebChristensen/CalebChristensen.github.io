@@ -104,3 +104,19 @@ label {
     background-position: left;
 }
 }
+
+/* iPhone 6/7/8 & Galaxy S5 & Pixel 2 & IPhone 5/SE LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {
+  .contactBox {
+    margin: auto;
+    width: 100vh;
+    top: 20vh;
+    text-align: center;
+  }
+  .yourFavoriteWeapon {
+    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: left;
+}
+}

@@ -77,3 +77,12 @@
     overflow: hidden;
   }
 }
+
+/* iPhone 6/7/8 & Galaxy S5 & Pixel 2 & IPhone 5/SE LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {
+  .box {
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+  }
+}
