@@ -185,7 +185,7 @@ label {
 @media only screen and (min-device-width : 411px) and (max-device-width : 822px) and (orientation : landscape) {
   .contactBox {
     margin: auto;
-    width: 120vh;
+    width: 90vh;
     top: 20vh;
     text-align: center;
   }
