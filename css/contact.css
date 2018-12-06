@@ -105,21 +105,7 @@ label {
 }
 }
 
-/* iPhone 6/7/8 & Galaxy S5 & Pixel 2 & IPhone 5/SE LANDSCAPE */
-@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {
-  .contactBox {
-    margin: auto;
-    width: 100vh;
-    top: 20vh;
-    text-align: center;
-  }
-  .yourFavoriteWeapon {
-    background-image: url("../assets/img/batman-vs-catwoman-comic-4k-artwork-x1.jpg");
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: left;
-}
-}
+
 
 /* Ipad Pro LANDSCAPE*/
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) {
@@ -153,11 +139,11 @@ label {
 }
 }
 
-/* Pixel 2 XL & iPhone 6/7/8 Plus & iPhone X LANDSCAPE */
-@media only screen and (min-device-width : 411px) and (max-device-width : 823px) and (orientation : landscape) {
+/* iPhone 6/7/8 Plus LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 736px) and (orientation : landscape) {
   .contactBox {
     margin: auto;
-    width: 100vh;
+    width: 80vh;
     top: 20vh;
     text-align: center;
   }
@@ -167,4 +153,50 @@ label {
     background-size: cover;
     background-position: left;
 }
+}
+
+
+/* Pixel 2 LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 731px) and (orientation : landscape) {
+  .contactBox {
+    margin: auto;
+    width: 80vh;
+    top: 20vh;
+    text-align: center;
+  }
+}
+
+/* Pixel 2 XL LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 823px) and (orientation : landscape) {
+  .contactBox {
+    margin: auto;
+    width: 100vh;
+    top: 20vh;
+    text-align: center;
+  }
+}
+
+/* iPhone 6/7/8 LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 667px) and (orientation : landscape) {
+
+}
+
+/* Iphone X LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 822px) and (orientation : landscape) {
+  .contactBox {
+    margin: auto;
+    width: 120vh;
+    top: 20vh;
+    text-align: center;
+  }
+}
+
+/* Galaxy S5 LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 640px) and (orientation : landscape) {
+
+}
+
+/* iPhone 5/SE LANDSCAPE */
+@media only screen and (min-device-width : 411px) and (max-device-width : 568px) and (orientation : landscape) {
+
 }
